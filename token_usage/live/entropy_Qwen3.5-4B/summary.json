@@ -1,0 +1,54 @@
+{
+  "updated_at": 1791798363.6606474,
+  "totals": {
+    "tasks": 4,
+    "turns": 230,
+    "offload_turns": 227,
+    "slm_prompt_tokens": 13807273,
+    "slm_completion_tokens": 43863,
+    "llm_prompt_tokens": 12840994,
+    "llm_completion_tokens": 60494
+  },
+  "tasks": [
+    {
+      "task": "Go-side invocation of script-defined functions and closures is broken: values exposed from a compile",
+      "sid": "dummy-125a394a8601311e",
+      "turns": 55,
+      "offload_turns": 54,
+      "slm_prompt_tokens": 3031521,
+      "slm_completion_tokens": 13548,
+      "llm_prompt_tokens": 2944425,
+      "llm_completion_tokens": 19514
+    },
+    {
+      "task": "Testem writes all results to one file. Per-browser files improve CI failure isolation. report_file m",
+      "sid": "dummy-5f47dd506f7571b0",
+      "turns": 58,
+      "offload_turns": 58,
+      "slm_prompt_tokens": 3683038,
+      "slm_completion_tokens": 12148,
+      "llm_prompt_tokens": 3431742,
+      "llm_completion_tokens": 18418
+    },
+    {
+      "task": "`Maybe`, `Result`, and `Task` have no standard way to work with arrays of them or compose across typ",
+      "sid": "dummy-2f4154ad18fc546f",
+      "turns": 55,
+      "offload_turns": 54,
+      "slm_prompt_tokens": 3198740,
+      "slm_completion_tokens": 8345,
+      "llm_prompt_tokens": 2868373,
+      "llm_completion_tokens": 11280
+    },
+    {
+      "task": "`name_mapping` can rename fields via `map` but cannot accept multiple alternative input keys for the",
+      "sid": "dummy-9d1bf06765f155be",
+      "turns": 62,
+      "offload_turns": 61,
+      "slm_prompt_tokens": 3893974,
+      "slm_completion_tokens": 9822,
+      "llm_prompt_tokens": 3596454,
+      "llm_completion_tokens": 11282
+    }
+  ]
+}

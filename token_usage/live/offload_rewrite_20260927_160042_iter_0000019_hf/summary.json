@@ -1,0 +1,64 @@
+{
+  "updated_at": 1791798894.438589,
+  "totals": {
+    "tasks": 5,
+    "turns": 446,
+    "offload_turns": 123,
+    "slm_prompt_tokens": 28646570,
+    "slm_completion_tokens": 183487,
+    "llm_prompt_tokens": 8055936,
+    "llm_completion_tokens": 37868
+  },
+  "tasks": [
+    {
+      "task": "Go-side invocation of script-defined functions and closures is broken: values exposed from a compile",
+      "sid": "dummy-125a394a8601311e",
+      "turns": 158,
+      "offload_turns": 53,
+      "slm_prompt_tokens": 11194603,
+      "slm_completion_tokens": 43228,
+      "llm_prompt_tokens": 3602486,
+      "llm_completion_tokens": 16330
+    },
+    {
+      "task": "Testem writes all results to one file. Per-browser files improve CI failure isolation. report_file m",
+      "sid": "dummy-5f47dd506f7571b0",
+      "turns": 102,
+      "offload_turns": 17,
+      "slm_prompt_tokens": 6058581,
+      "slm_completion_tokens": 42200,
+      "llm_prompt_tokens": 979717,
+      "llm_completion_tokens": 6314
+    },
+    {
+      "task": "`Maybe`, `Result`, and `Task` have no standard way to work with arrays of them or compose across typ",
+      "sid": "dummy-2f4154ad18fc546f",
+      "turns": 63,
+      "offload_turns": 33,
+      "slm_prompt_tokens": 3701994,
+      "slm_completion_tokens": 46560,
+      "llm_prompt_tokens": 1913142,
+      "llm_completion_tokens": 10179
+    },
+    {
+      "task": "`name_mapping` can rename fields via `map` but cannot accept multiple alternative input keys for the",
+      "sid": "dummy-9d1bf06765f155be",
+      "turns": 122,
+      "offload_turns": 20,
+      "slm_prompt_tokens": 7691381,
+      "slm_completion_tokens": 51241,
+      "llm_prompt_tokens": 1560591,
+      "llm_completion_tokens": 5045
+    },
+    {
+      "task": "ping",
+      "sid": "dummy-b612bf4fc0b3c47f",
+      "turns": 1,
+      "offload_turns": 0,
+      "slm_prompt_tokens": 11,
+      "slm_completion_tokens": 258,
+      "llm_prompt_tokens": 0,
+      "llm_completion_tokens": 0
+    }
+  ]
+}

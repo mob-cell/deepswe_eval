@@ -32,7 +32,18 @@ verifier/
 
 ## Quickstart
 
-Use [Pier](https://github.com/datacurve-ai/pier) to run the benchmark:
+Use [Pier](https://github.com/datacurve-ai/pier) to run the benchmark.
+Agent run and verification happen in one `pier run` (no separate harness step).
+
+Local model (absolute paths baked into script):
+
+```bash
+bash /workspace/work/mjy/eval/deep-swe/run_sh/run_qwen35_4b_deepswe.sh
+```
+
+Results: `/workspace/work/mjy/eval/deep-swe-jobs/qwen35-4b-deepswe/`.
+
+Upstream examples:
 
 ```bash
 git clone https://github.com/datacurve-ai/deep-swe

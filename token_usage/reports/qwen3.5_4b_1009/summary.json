@@ -1,0 +1,47 @@
+{
+  "job": "qwen3.5_4b_1009",
+  "aggregation": "Each turn stores the usage object from that model call. Task totals are the sum of those per-turn values. prompt_tokens already includes the full context of that request.",
+  "n_trajectories": 1,
+  "errors": [],
+  "tasks": {
+    "n_tasks": 1,
+    "n_turns": 58,
+    "prompt_tokens": 1818426,
+    "completion_tokens": 117905,
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "completion_text_tokens": null,
+    "total_tokens": 1936331
+  },
+  "completed_tasks": {
+    "n_tasks": 1,
+    "n_turns": 58,
+    "prompt_tokens": 1818426,
+    "completion_tokens": 117905,
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "completion_text_tokens": null,
+    "total_tokens": 1936331
+  },
+  "task_list": [
+    {
+      "job": "qwen3.5_4b_1009",
+      "trial": "etree-xml-diff-patch__8Mw7knd",
+      "task": "etree-xml-diff-patch",
+      "model": "qwen3.5_4b",
+      "configured_model": "openai/qwen3.5_4b",
+      "complete": true,
+      "exit_status": "RepeatedFormatError",
+      "n_turns": 58,
+      "n_turns_missing_usage": 0,
+      "api_calls_reported": 58,
+      "trajectory": "/workspace/work/mjy/eval/deep-swe-jobs/qwen3.5_4b_1009/etree-xml-diff-patch__8Mw7knd/agent/mini-swe-agent.trajectory.json",
+      "prompt_tokens": 1818426,
+      "completion_tokens": 117905,
+      "reasoning_tokens": null,
+      "cached_tokens": null,
+      "completion_text_tokens": null,
+      "total_tokens": 1936331
+    }
+  ]
+}

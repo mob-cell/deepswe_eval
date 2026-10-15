@@ -1,0 +1,47 @@
+{
+  "job": "0927_c19",
+  "aggregation": "Each turn stores the usage object from that model call. Task totals are the sum of those per-turn values. prompt_tokens already includes the full context of that request.",
+  "n_trajectories": 1,
+  "errors": [],
+  "tasks": {
+    "n_tasks": 1,
+    "n_turns": 57,
+    "prompt_tokens": 2271162,
+    "completion_tokens": 25352,
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "completion_text_tokens": null,
+    "total_tokens": 2296514
+  },
+  "completed_tasks": {
+    "n_tasks": 1,
+    "n_turns": 57,
+    "prompt_tokens": 2271162,
+    "completion_tokens": 25352,
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "completion_text_tokens": null,
+    "total_tokens": 2296514
+  },
+  "task_list": [
+    {
+      "job": "0927_c19",
+      "trial": "oxvg-structural-selector-preserv__jZVBAYL",
+      "task": "oxvg-structural-selector-preserv",
+      "model": "offload-router",
+      "configured_model": "openai/offload-router",
+      "complete": true,
+      "exit_status": "RepeatedFormatError",
+      "n_turns": 57,
+      "n_turns_missing_usage": 0,
+      "api_calls_reported": 57,
+      "trajectory": "/workspace/work/mjy/eval/deep-swe-jobs/0927_c19/oxvg-structural-selector-preserv__jZVBAYL/agent/mini-swe-agent.trajectory.json",
+      "prompt_tokens": 2271162,
+      "completion_tokens": 25352,
+      "reasoning_tokens": null,
+      "cached_tokens": null,
+      "completion_text_tokens": null,
+      "total_tokens": 2296514
+    }
+  ]
+}
